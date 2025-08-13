@@ -1,0 +1,40 @@
+data:
+  all: true
+rag:
+  files:
+    exclude:
+    - .DS_Store
+    - .ai
+    - .cache
+    - .deployments/instances/
+    - .file_versions
+    - .gitkeep
+    - .log
+    - .logs/
+    - .mage_temp_profiles
+    - .operation_history
+    - .preferences.yaml
+    - .profiles_*
+    - .ssh_tunnel
+    - .variables/
+    - __pycache__/
+    - docker-compose.override.yml
+    - example.db
+    - example.duckdb
+    - logs/
+    - mage-ai.db
+    - mage_data/
+    - secrets/
+    include: []
+  folders:
+    exclude: []
+    include:
+    - /home/src/bitbucket-cf-test/callbacks
+    - /home/src/bitbucket-cf-test/custom
+    - /home/src/bitbucket-cf-test/data_exporters
+    - /home/src/bitbucket-cf-test/data_loaders
+    - /home/src/bitbucket-cf-test/dbt
+    - /home/src/bitbucket-cf-test/extensions
+    - /home/src/bitbucket-cf-test/sensors
+    - /home/src/bitbucket-cf-test/transformers
+    - /home/src/bitbucket-cf-test/utils
