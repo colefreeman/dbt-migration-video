@@ -20,3 +20,4 @@ logs/
 mage-ai.db
 mage_data/
 secrets/
+ai_config.yaml
